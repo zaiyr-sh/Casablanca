@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <title>Casablanca</title>
 </head>
+
 <body>
 
 <header>
@@ -54,6 +58,7 @@
         </div>
     </div>
 </div> <!-- Creativity -->
+
 
 <section class="section">
     <div class="container">
@@ -126,12 +131,13 @@
 
         <div class="show">
             <div class="show__inner">
-                <a class="btn_show" href="#">Show me more.</a>
+                <a class="btn__show" href="#">Show me more.</a>
             </div>
         </div> <!-- Show me more -->
 
     </div>
 </section> <!-- Section -->
+
 
 <div class="help">
     <div class="container">
@@ -140,6 +146,7 @@
         </div>
     </div>
 </div> <!-- Help -->
+
 
 <section class="section section--grey">
     <div class="container">
@@ -166,6 +173,7 @@
         </div>
     </div>
 </section> <!-- Section -->
+
 
 <section class="section section--participants">
     <div class="container">
@@ -241,6 +249,7 @@
     </div>
 </section> <!-- Section -->
 
+
 <div class="video">
     <div class="container">
         <div class="video__inner"></div>
@@ -249,6 +258,7 @@
         </span>
     </div>
 </div> <!-- Video -->
+
 
 <section class="section section--devices">
 
@@ -300,6 +310,7 @@
 
 </section> <!-- Section -->
 
+
 <div class="quote">
     <div class="container">
         <div class="quote__inner">
@@ -307,6 +318,7 @@
         </div>
     </div>
 </div> <!-- Quote -->
+
 
 <section class="section section--connect">
     <div class="container">
@@ -317,11 +329,13 @@
     </div>
 </section> <!-- Section -->
 
+
 <div class="information">
     <div class="container">
         <div class="location">
             <div class="location__title">Our Location</div>
             <address class="location__text">174 Mimosa ST. NW <br>Casablanca, MA 20370 <br>(212) 123 456 7 <br>Samir Timezguida</address>
+
             <div class="social">
                 <a href="#" target="_blank" class="social__item">
                     <i class="fab fa-twitter"></i>
@@ -338,17 +352,27 @@
                 <a href="#" target="_blank" class="social__item">
                     <i class="fab fa-behance"></i>
                 </a>
-            </div>
+            </div> <!-- Social -->
+
         </div> <!-- Location -->
 
         <div class="questionnaire">
-            <div class="name">Name</div>
-            <div class="email">Email</div>
-            <div class="message">Message</div>
+            <form action="#" method="post">
+                <div class="questionnaire__name"><label for="name"></label><input name="name" id="name" placeholder="Name" class="questionnaire__input"></div>
+                <div class="questionnaire__email"><label for="email"></label><input name="email" id="email" placeholder="Email" class="questionnaire__input"></div>
+                <div class="questionnaire__message"><label for="message"></label><input name="message" id="message" placeholder="Message" class="questionnaire__input questionnaire__input--message"></div>
+            </form>
+
+            <div class="send">
+                <div class="send__inner">
+                    <a class="btn__send" href="#">Send</a>
+                </div>
+            </div> <!-- Send -->
         </div> <!-- Questionnaire -->
 
     </div>
 </div> <!-- Section -->
+
 
 <footer class="footer">
     <div class="container">
@@ -361,7 +385,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> <!-- Footer -->
 
 </body>
 </html>

@@ -3,7 +3,6 @@ body{
     line-height: 1.5; /*расстояние между строк*/
 }
 
-
 /*для всех элементов страницы*/
 *,
 *:before,
@@ -371,7 +370,7 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-.btn_show{
+.btn__show{
     display: inline-block;
     vertical-align: top;
     border: 3px solid #222222;
@@ -391,7 +390,7 @@ h1, h2, h3, h4, h5, h6{
     transition: background .1s linear, color .1s linear;
 }
 
-.btn_show:hover{
+.btn__show:hover{
     background-color: #222222;
     color: #ffffff;
 }
@@ -839,39 +838,108 @@ h1, h2, h3, h4, h5, h6{
 /*Questionnaire*/
 .questionnaire{
     display: block;
+    float: right;
+
     width: 65%;
     max-width: 985px;
     height: 500px;
-    float: right;
+
     margin: 0 auto;
+
     background-color: #e4e4e4;
 }
 
+.questionnaire__input{
+    border: 1px solid transparent; /*прозрачный цвет*/
+    border-bottom-color: #afafaf;
 
+    font-family: Amble_Regular, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
 
+    height: 32px;
+    width: 302px;
 
+    background-color: #e4e4e4;
 
+    outline: none; /*убирает обводку*/
+    outline-offset: 0;
+}
 
+.questionnaire__input::placeholder{
+    padding-left: 28px;
+}
 
+.questionnaire__input--message{
+    width: 669px;
+}
 
+.questionnaire__name{
+    float: left;
+    width: 20%;
 
+    margin-top: 93px;
+    margin-left: 105px;
+}
 
+.questionnaire__email{
+    float: right;
+    width: 60%;
 
+    margin-top: 93px;
+    padding-left: 120px;
+}
 
+.questionnaire__message{
+    float: right;
+    width: 100%;
 
+    margin-top: 120px;
+    padding-left: 100px;
+}
 
+/*Send*/
+.send{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
+    width: 100%;
+    padding-left: 485px;
+    padding-top: 5px;
+}
 
+.send__inner{
+    height: 60px;
+    padding: 33px;
 
+}
 
+.btn__send{
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid #222222;
 
+    text-transform: uppercase;
+    text-decoration: none;
 
+    font-size: 24px;
+    font-weight: 700;
 
+    width: 183px;
+    height: 60px;
+    padding: 10px;
 
+    color: #222222;
 
+    transition: background .1s linear, color .1s linear;
+}
 
-
-
+.btn__send:hover{
+    background-color: #222222;
+    color: #ffffff;
+}
 
 /*Footer*/
 .footer{
@@ -901,4 +969,5 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 55px;
     padding-right: 20px;
 }
+
 

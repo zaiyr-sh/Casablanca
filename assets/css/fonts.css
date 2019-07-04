@@ -1,0 +1,48 @@
+/* font-family: "Amble_Bold"; */
+@font-face {
+    font-family: "Amble_Bold";
+    src: url("../fonts/Amble_Bold/Amble-Bold.eot");
+    src: url("../fonts/Amble_Bold/Amble-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Amble_Bold/Amble-Bold.woff") format("woff"),
+    url("../fonts/Amble_Bold/Amble-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Amble_Light"; */
+@font-face {
+    font-family: "Amble_Light";
+    src: url("../fonts/Amble_Light/Amble-Light.eot");
+    src: url("../fonts/Amble_Light/Amble-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Amble_Light/Amble-Light.woff") format("woff"),
+    url("../fonts/Amble_Light/Amble-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Amble_Regular"; */
+@font-face {
+    font-family: "Amble_Regular";
+    src: url("../fonts/Amble_Regular/Amble-Regular.eot");
+    src: url("../fonts/Amble_Regular/Amble-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Amble_Regular/Amble-Regular.woff") format("woff"),
+    url("../fonts/Amble_Regular/Amble-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Big_John"; */
+@font-face {
+    font-family: "Big_John";
+    url("../fonts/Big_John/Big John.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Amble_Regular"; */
+@font-face {
+    font-family: "Slim_Joe";
+    url("../fonts/Slim_Joe/Slim Joe.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}

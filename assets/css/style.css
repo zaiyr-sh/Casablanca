@@ -289,7 +289,6 @@ h1, h2, h3, h4, h5, h6{
     margin: 20px auto;
 
     background: linear-gradient(to bottom, #0B2532, #0B2532);
-
 }
 
 .works__item:hover .works__image{
@@ -445,6 +444,14 @@ h1, h2, h3, h4, h5, h6{
     margin: 100px;
 }
 
+.clients__item{
+    filter: grayscale(100%);
+}
+
+.clients__item:hover{
+    filter: grayscale(0%);
+}
+
 /*Participants*/
 .participants{
     display: flex;
@@ -463,6 +470,7 @@ h1, h2, h3, h4, h5, h6{
 
 .participants__item{
     position: relative;
+    border: 4px solid transparent;
 
     width: 270px;
     height: 360px;
@@ -724,7 +732,7 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
 }
 
-.orange__circle{ /*оранжевый круг*/
+.orange__circle{    /*оранжевый круг*/
     position: absolute;
     border: 6px solid #d87843;
     cursor: pointer;
@@ -738,8 +746,7 @@ h1, h2, h3, h4, h5, h6{
     box-shadow: 1px 1px 2px rgba(0,0,0,.2);
 }
 
-/*Circles*/
-.grey__circle{
+.grey__circle{      /*серый круг*/
     position: absolute;
     border: 6px solid #d5d5d5;
     cursor: pointer;
